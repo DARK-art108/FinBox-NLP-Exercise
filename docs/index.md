@@ -299,7 +299,7 @@ learn.fit_one_cycle(10, 1e-3)
 
  So, after 10 epochs I have achived a accuracy of **0.77** and perplexity of **1.5**, this is just a intial result's, we can also fit our model with more epochs and get more good result.
 
- Now, let's see the result(10 Epochs):
+ Now, let's see the result (10 Epochs):
 
  1. Confusion Matrix:
 
