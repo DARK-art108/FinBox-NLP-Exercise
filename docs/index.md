@@ -282,7 +282,7 @@ Let's find a Optimal learning rate:
 learn.lr_find()
 ```
 
- ![Placeholder](https://i.imgur.com/0xOYUGR.png)
+ ![Placeholder](https://i.imgur.com/5gYVU3c.png)
 
 Best `lr is 1e-3`, so let's set it and start training:
 
@@ -335,7 +335,7 @@ But in the end, I have come up with a solution to solve this and remove some of 
 
 While working in the model building and selection phase, I have performed few experiments:
 
- **bert-uncased-base** : I have used this model with a fastai wraper on Hugging Face Transformer which is [blurr](https://github.com/ohmeow/blurr), but while intializing a learner, I am getting an error message `Cuda out of memory error` I have even controlled my batch size but it is throwing the same error.
+ **bert-base-uncased** : I have used this model with a fastai wraper on Hugging Face Transformer which is [blurr](https://github.com/ohmeow/blurr), but while intializing a learner, I am getting an error message `Cuda out of memory error` I have even controlled my batch size but it is throwing the same error.
 
  I will work upon this model later and will try to find a proper solution.
 
@@ -351,7 +351,7 @@ We can have a two different cluster's which are **positive** and **negative** an
 
 ## Important Links
 
-* Find Google Colab Notebook Here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_Oq6lPluA6k1cUwsONQRk6oHbdEI3tVf?usp=sharing)
+* Find Google Colab Notebook Here: [![Open In Colab](https://colab.research.google.com/drive/1V4_JT2rMNaZNPUPiGiiQWW97LEDYotCC?usp=sharing)
 * Github Repository: [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/DARK-art108/FinBox-NLP-Exercise)
 
 
