@@ -297,9 +297,9 @@ learn.fit_one_cycle(10, 1e-3)
 
  ![Placeholder](https://i.imgur.com/OpYNiAt.png)
 
- So, after 10 epochs I have achived a accuracy of **0.77** and perplexity of **1.5**, this is just a intial result's, we can also fit our model with more epochs and see the result.
+ So, after 10 epochs I have achived a accuracy of **0.77** and perplexity of **1.5**, this is just a intial result's, we can also fit our model with more epochs and get more good result.
 
- Now, let's see the result:
+ Now, let's see the result(10 Epochs):
 
  1. Confusion Matrix:
 
@@ -309,7 +309,7 @@ learn.fit_one_cycle(10, 1e-3)
 
  ![Placeholder](https://i.imgur.com/wz1khCg.png)
 
- Now, at end I have a model which is trained and ready to use, I am going to train it on more epochs and then we can get more accurate result's.
+ Now, at end I have a model which is trained and ready to use, I am going to train it on more epochs later and then we can get more accurate result's.
 
 
 ## Requried Libraries
