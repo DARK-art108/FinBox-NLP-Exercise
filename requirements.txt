@@ -1,0 +1,14 @@
+plotly
+nltk
+pandas
+regex
+matplotlib==3.2.2
+matplotlib-inline==0.1.2
+matplotlib-venn==0.11.6
+mkdocs==1.2.2
+mkdocs-bootswatch==1.1
+mkdocs-material==7.2.6
+mkdocs-material-extensions==1.0.3
+fastai
+twython
+
