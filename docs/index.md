@@ -167,7 +167,7 @@ And now I have left with the following columns:
 
  ![Placeholder](https://i.imgur.com/Zip9Pwy.png)
 
- ## Performing Sentiment Analysis using Vader and Fastai(Unsupervised Learning)
+## Getting Sentiment's using Vader (Unsupervised Learning)
 
 Now, after performing preprocessing,we have got a dataframe which I have shown you above, now we have text but we don't have sentiments,so to get the sentiment's or labels on 102600 tweets I am going to use vader library.
 
@@ -218,7 +218,7 @@ clean_train_data
 ```
 ![Placeholder](https://i.imgur.com/S3eP3EE.png)
 
-## Sentiment Analysis using LSTM and Fastai
+## Sentiment Analysis using AWD-LSTM and Fastai
 
 I am going to create a DataBlock in which we are goign to use a seq_len as 72, why 72? As if you look on to the sequences in detail you will find that most of the sequences are less than 72 words.
 
@@ -351,13 +351,8 @@ We can have a two different cluster's which are **positive** and **negative** an
 
 ## Important Links
 
-* Find Google Colab Notebook Here: [![Open In Colab](https://colab.research.google.com/drive/1V4_JT2rMNaZNPUPiGiiQWW97LEDYotCC?usp=sharing)
+* Find Google Colab Notebook Here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V4_JT2rMNaZNPUPiGiiQWW97LEDYotCC?usp=sharing)
+* Open in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DARK-art108/FinBox-NLP-Exercise/main)
 * Github Repository: [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/DARK-art108/FinBox-NLP-Exercise)
-
-
-
-
-
-
 
 
