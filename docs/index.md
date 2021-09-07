@@ -342,12 +342,13 @@ While working in the model building and selection phase, I have performed few ex
 
 ## Other Possible Solutions to this Unsupervised Sentiment Analysis Problem
 
-We can have a two different cluster's which are **positive** and **negative** and then we can use **K-Means** to cluster the data.
+We can have a two different cluster's which are **positive** and **negative** and then we can use **K-Means** to cluster the tweet data.
 
 ## Instruction to run the project
 
 * Find the link to the Google Colab Notebook Below, and run the Notebook.
-* You can also clone the github repository present below, and run the Jupyter Notebook after installing the requirements.txt on your conda environment.
+* You can also clone the github repository present below, and run the Jupyter Notebook's after installing the requirements.txt on your conda environment.
+* Find the link to the binder cloud platform below, and run the Notebook.
 
 ## Important Links
 
